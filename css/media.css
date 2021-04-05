@@ -1,0 +1,43 @@
+@media (max-width: 700px){
+	h3{
+		text-align: initial;
+	}
+	.referencias-p{
+		margin-bottom: 3em;
+	}
+	._column-2{
+		grid-template-columns: 1fr;
+	}
+    .cinta{
+        background: #17a2b8;
+        text-indent: 0em;
+    }
+    .cinta::after, .cinta::before{
+        display: none;
+    }
+    address,  .redes .flex{
+        text-align: center;
+        justify-content: center;
+    }
+    article.container {
+        border-left: 0px solid transparent;
+    }
+    .btn-email-noresp{
+        display: none;
+    }
+    .btn-email-resp{
+        display: block;
+    }
+    .contacto{
+        display: grid;
+    }
+    footer p{
+        width: 90%;
+    }
+
+    /* folio */
+    .auto-fill{
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-gap: 10px;
+    }
+}   
