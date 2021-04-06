@@ -175,11 +175,10 @@
         imgs.forEach(e => {
             e.addEventListener("load", ()=>{
                 if(e.complete){
-                    console.log(e)
                     prepare.innerText = "Cargando " + ( (((i)/total)*100).toFixed(0) ) + "%"
                     i++
                 }
-                if(prepare.innerText == "100%"){
+                if(prepare.innerText == "100%" || total == i){
                     prepare.style.display = "none"
 		    prepare.innerText = ""
                 }
