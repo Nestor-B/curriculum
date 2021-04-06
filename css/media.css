@@ -43,4 +43,7 @@
     .display-1{
 	font-size: 3.3em;
     }
+    blockquote{
+	text-align: justify;
+    }	
 }   
