@@ -40,10 +40,10 @@
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         grid-gap: 10px;
     }
-    .display-1{
+    .em-h1{
 	font-size: 3.3em;
     }
     blockquote{
-	text-align: justify;
+	text-align: justify !important;
     }	
 }   
