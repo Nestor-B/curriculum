@@ -46,4 +46,7 @@
     blockquote{
 	text-align: justify !important;
     }	
+    .container .bg-info{
+	background-size: 80%;
+    }	
 }   
