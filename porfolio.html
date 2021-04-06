@@ -178,11 +178,11 @@
                     prepare.innerText = "Cargando " + ( (((i)/total)*100).toFixed(0) ) + "%"
                     i++
                 }
-                if(prepare.innerText == "100%" || total == i){
+                if(prepare.innerText == "100%"){
                     setTimeout(()=>{
 		    	prepare.style.display = "none"
 		    	prepare.innerText = ""
-		    }, 1000)
+		    }, 1005)
                 }
             })
         });		
