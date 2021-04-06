@@ -179,8 +179,10 @@
                     i++
                 }
                 if(prepare.innerText == "100%" || total == i){
-                    prepare.style.display = "none"
-		    prepare.innerText = ""
+                    setTimeout(()=>{
+		    	prepare.style.display = "none"
+		    	prepare.innerText = ""
+		    }, 1000)
                 }
             })
         });		
