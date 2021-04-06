@@ -176,11 +176,11 @@
             e.addEventListener("load", ()=>{
                 if(e.complete){
                     console.log(e)
-                    prepare.innerText = ( (((i)/total)*100).toFixed(0) ) + "%"
+                    prepare.innerText = "Cargando " + ( (((i)/total)*100).toFixed(0) ) + "%"
                     i++
                 }
                 if(prepare.innerText == "100%"){
-                    alert()
+                    prepare.style.display = "none"
                 }
             })
         });		
