@@ -48,5 +48,7 @@
     }	
     .container .bg-info{
 	background-size: 75%;
+	text-align: center;
+	background-position: center center;
     }	
 }   
