@@ -178,11 +178,11 @@
                     prepare.innerText = "Cargando " + ( (((i)/total)*100).toFixed(0) ) + "%"
                     i++
                 }
-                if(prepare.innerText == "100%"){
+                if(i==total){
                     setTimeout(()=>{
-		    	prepare.style.display = "none"
-			prepare.classList.add("display-none")
-		    	prepare.innerText = ""
+		    	document.querySelector("#prepare").style.display = "none !important"
+			document.querySelector("#prepare").classList.add("display-none")
+		    	document.querySelector("#prepare").innerText = ""
 		    }, 1005)
                 }
             })
